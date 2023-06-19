@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiv Software Experts</title>
+</head>
+    <body>
+    
+    <ul>
+      <li><img  figcaption="icon" src="../assets/Shiv_logo.png" width="150px" height="60px" /></li>
+      <li><a class="active" href="#home">HOME</a></li>
+      <li><a href="#ABOUT">ABOUT</a></li>
+      <li><a href="#TEAM">TEAM</a></li>
+      <li><a href="#SERVICE">SERVICE</a></li>
+      <li><a href="#STAFFINGSOLUTION">STAFFING SOLUTION</a></li>
+      <li><a href="#CONTACT">CONTACT</a></li>
+    </ul>
+    <div class="banner">
+            <div class="htag">
+                <p>Creative & Innovative <br> Digital Solution</p>
+               <div class="bt">
+                <button style="background-color: orange;border: none;">Free Quote</button>
+                <button style="background-color: transparent;">Contact Us</button>
+               </div>
+            </div>
+
+    </div>
+    <div id="layer1">
+            <div class="buttons">
+                <button class="heighlight" style="background-color: #005083;color: white;border:none; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);">
+                   <span> <img src="../assets/icons_01.png" width="30" height="30" style="background-color: white;margin: 5px;margin-right: 10px;"></span>
+                    <span>  Happy Clients <br> 50+</span>
+                </button>
+                <button class="heighlight1" style="background-color: white;color: #005083;border:none;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);">
+                    <span> <img src="../assets/icons_02.png" width="30" height="30" style="background-color: #005083;margin-right: 10px;"></span> <span> Projects Done <br> 50+
+                    </span>
+                </button>
+                <button class="heighlight"style="background-color:#005083 ;color: white;border:none;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);">
+                    <span> <img src="../assets/icons_03.png" width="30" height="30" style="background-color: white;margin-right: 10px;"> </span>
+                    <span>Ontime Delivery
+                    <br>95%</span>
+                </button>
+            </div>
+         <div class="about">
+            
+              <div class="content">
+                <h3>
+                    ABOUT US
+                </h3>
+               
+              <div class="about-para">
+                <div class="caption">
+                    The Best IT Solutions with 5 Years of Experience
+              </div>
+              <hr width="15%" color="#005083" size="3px" style="margin-left:2px;"/>
+              <br>
+                <p>
+                At Shiv Software Experts Pvt Ltd. we partner with our client to help  them achieve thier core business objectives by efficiently outsourcing their non-core business processes
+                and delivering   tailored solutions.
+                with our  expertise in software development, we enable business to focus on their key areas while we handle the rest.
+                Our proven startegies and customised solutions are designed to optimise operational efficiency,
+                enhance productivity and drive business growth. Through our cutting-edge technology and industry best practices,
+                we provide our clients with innovative and scalable solutions that are aligned with their business goals.
+                Trust us to deliver top-notch, value added solutions that accelerate your business success.
+            </p>
+            <p>
+                Our company specializes in providing customized software developement solutions and top-notch  IT Staffing  services business of all sizes and industries. We have a team of highly skilled devlopers and IT Professionals who are dedicated to delivering exceptional results to our  clients.Our main aim  is to meet our clients expectations and give them the best results
+            </p>
+              </div>
+             </div>
+             <div class="content-pic">
+                <img src="../assets/About_us.png" alt="about us" width="300" height="400" >
+             </div>
+
+            
+
+
+         </div>
+         <div class="services">
+          <h3>OUR SERVICES</h3>
+          <p>Custom IT Solutions for your  Successful Business</p>
+          <hr width="15%" color="#005083" size="3px"/>
+     </div>
+         <div class="service-card">
+          
+              <div class="card" *ngFor="let item of items">
+                <div class="card-img">
+                   <div class="img-box">
+                      <img src="{{item.src}}" height="40" width="40">
+                   </div>
+                </div>
+                <div>
+                 <span>{{item.itemname}}</span>
+                </div>
+                 <button>read more</button>
+              </div>
+         </div>
+    </div>
+    
+
+</body>
+</html>
